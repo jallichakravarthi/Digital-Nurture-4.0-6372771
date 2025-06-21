@@ -38,7 +38,7 @@ Key Files: `Document.java`, `DocumentFactory.java`, `WordDocumentFactory.java`, 
 
 ---
 
-## Module 2: Algorithmic Thinking & Java Implementation
+### Module 2: Algorithmic Thinking & Java Implementation
 
 ---
 
@@ -57,7 +57,22 @@ Discussion: `Exercise 02-discussion.docx`
 
 ---
 
-### 4. Financial Forecasting
+### 4. Sorting Customer Orders
+- **Exercise**: Sort orders by total price using sorting algorithms.
+- **Objective**: Prioritize high-value orders by applying sorting techniques.
+- **Highlights**:
+  - `Order` class holds customer details and product list.
+  - `OrderProduct` class encapsulates product details.
+  - Implemented both **Bubble Sort** and **Quick Sort** based on `totalPrice`.
+  - Demonstrates efficiency and time complexity difference between the two algorithms.
+
+Folder: `Week1/Module2/Exercise3-SortingCustomerOrders`  
+Key Files: `Order.java`, `OrderProduct.java`, `OrderTest.java`  
+Discussion: `Exercise 03-discussion.docx`
+
+---
+
+### 5. Financial Forecasting
 - **Exercise**: Predict future financial value using recursion.
 - **Objective**: Forecast future value based on initial value and growth rate.
 - **Highlights**:
@@ -78,4 +93,4 @@ Discussion: `Exercise 07-discussion.docx`
 
 ---
 
- *More modules and hands-on exercises will be added as the program progresses.*
+*More modules and hands-on exercises will be added as the program progresses.*
