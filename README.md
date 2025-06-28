@@ -13,27 +13,31 @@ This repository contains all the mandatory hands-on exercises completed as part 
 ---
 
 ### 1. Singleton Pattern
-- **Exercise**: Logger implementation using the Singleton Design Pattern.
-- **Objective**: Ensure that only one instance of the logger exists across the application.
-- **Highlights**:
-  - Thread-safe double-checked locking.
-  - Lazy initialization.
-  - Log methods with timestamp support.
 
- Folder: `Week1/Module1/Exercise1-SingletonPattern`  
- Key File: `Logger.java`, `LoggerTest.java`
+* **Exercise**: Logger implementation using the Singleton Design Pattern.
+* **Objective**: Ensure that only one instance of the logger exists across the application.
+* **Highlights**:
+
+  * Thread-safe double-checked locking.
+  * Lazy initialization.
+  * Log methods with timestamp support.
+
+Folder: `Week1/Module1/Exercise1-SingletonPattern`
+Key File: `Logger.java`, `LoggerTest.java`
 
 ---
 
 ### 2. Factory Method Pattern
-- **Exercise**: Document creation using the Factory Method Design Pattern.
-- **Objective**: Abstract the document creation logic for different types like Word, PDF, Excel.
-- **Highlights**:
-  - Common `Document` interface.
-  - Factory classes for each document type.
-  - Centralized testing through a factory-based instantiation approach.
 
-Folder: `Week1/Module1/Exercise2-FactoryMethodPattern`  
+* **Exercise**: Document creation using the Factory Method Design Pattern.
+* **Objective**: Abstract the document creation logic for different types like Word, PDF, Excel.
+* **Highlights**:
+
+  * Common `Document` interface.
+  * Factory classes for each document type.
+  * Centralized testing through a factory-based instantiation approach.
+
+Folder: `Week1/Module1/Exercise2-FactoryMethodPattern`
 Key Files: `Document.java`, `DocumentFactory.java`, `WordDocumentFactory.java`, etc.
 
 ---
@@ -43,53 +47,157 @@ Key Files: `Document.java`, `DocumentFactory.java`, `WordDocumentFactory.java`, 
 ---
 
 ### 3. E-commerce Platform Search Function
-- **Exercise**: Implementation of search functionalities using Linear and Binary search.
-- **Objective**: Develop efficient search for products in an e-commerce platform.
-- **Highlights**:
-  - `Product` class with fields: `productId`, `productName`, `productCategory`, `price`.
-  - Linear search methods by ID, Name, Category, and Price.
-  - Binary search methods with sorted arrays for optimized performance.
-  - Hybrid binary + linear approach for price range queries.
 
-Folder: `Week1/Module2/Exercise2-ECommercePlatformSearch`  
-Key Files: `Product.java`, `ProductLinearSearch.java`, `ProductBinarySearch.java`, `ProductSearchTest.java`  
+* **Exercise**: Implementation of search functionalities using Linear and Binary search.
+* **Objective**: Develop efficient search for products in an e-commerce platform.
+* **Highlights**:
+
+  * `Product` class with fields: `productId`, `productName`, `productCategory`, `price`.
+  * Linear search methods by ID, Name, Category, and Price.
+  * Binary search methods with sorted arrays for optimized performance.
+  * Hybrid binary + linear approach for price range queries.
+
+Folder: `Week1/Module2/Exercise2-ECommercePlatformSearch`
+Key Files: `Product.java`, `ProductLinearSearch.java`, `ProductBinarySearch.java`, `ProductSearchTest.java`
 Discussion: `Exercise 02-discussion.docx`
 
 ---
 
 ### 4. Sorting Customer Orders
-- **Exercise**: Sort orders by total price using sorting algorithms.
-- **Objective**: Prioritize high-value orders by applying sorting techniques.
-- **Highlights**:
-  - `Order` class holds customer details and product list.
-  - `OrderProduct` class encapsulates product details.
-  - Implemented both **Bubble Sort** and **Quick Sort** based on `totalPrice`.
-  - Demonstrates efficiency and time complexity difference between the two algorithms.
 
-Folder: `Week1/Module2/Exercise3-SortingCustomerOrders`  
-Key Files: `Order.java`, `OrderProduct.java`, `OrderTest.java`  
+* **Exercise**: Sort orders by total price using sorting algorithms.
+* **Objective**: Prioritize high-value orders by applying sorting techniques.
+* **Highlights**:
+
+  * `Order` class holds customer details and product list.
+  * `OrderProduct` class encapsulates product details.
+  * Implemented both **Bubble Sort** and **Quick Sort** based on `totalPrice`.
+  * Demonstrates efficiency and time complexity difference between the two algorithms.
+
+Folder: `Week1/Module2/Exercise3-SortingCustomerOrders`
+Key Files: `Order.java`, `OrderProduct.java`, `OrderTest.java`
 Discussion: `Exercise 03-discussion.docx`
 
 ---
 
 ### 5. Financial Forecasting
-- **Exercise**: Predict future financial value using recursion.
-- **Objective**: Forecast future value based on initial value and growth rate.
-- **Highlights**:
-  - Recursive implementation for compound growth.
-  - Handles invalid inputs (negative values, unrealistic rates).
-  - Clean and extensible design with Javadoc and validation.
 
-Folder: `Week1/Module2/Exercise7-FinancialForecast`  
-Key Files: `FinancialForecast.java`, `FinancialForecastTest.java`  
+* **Exercise**: Predict future financial value using recursion.
+* **Objective**: Forecast future value based on initial value and growth rate.
+* **Highlights**:
+
+  * Recursive implementation for compound growth.
+  * Handles invalid inputs (negative values, unrealistic rates).
+  * Clean and extensible design with Javadoc and validation.
+
+Folder: `Week1/Module2/Exercise7-FinancialForecast`
+Key Files: `FinancialForecast.java`, `FinancialForecastTest.java`
 Discussion: `Exercise 07-discussion.docx`
 
 ---
 
+## Week 2 – Programming Languages
+
+### Module 03 – PL/SQL Programming
+
+---
+
+### 1. Exercise 1 – Control Structures
+
+**Highlights**:
+- Demonstrates conditional branching using `IF`, `ELSIF`, and `ELSE`.
+- Implements iterative logic using `LOOP`, `WHILE`, and `FOR`.
+- Shows the use of variables and control flow in PL/SQL blocks.
+
+**Folder**: `Week 02-Programming Languages/Module 03-PLSQL Programming/Exercise 1 - Control Structures`
+
+---
+
+### 2. Exercise 3 – Stored Procedures
+
+**Highlights**:
+- Creation of stored procedures using `CREATE PROCEDURE`.
+- Use of parameters with `IN`, `OUT`, and `IN OUT` modes.
+- Execution through anonymous PL/SQL blocks or SQL Developer.
+
+**Folder**: `Week 02-Programming Languages/Module 03-PLSQL Programming/Exercise 3 - Stored Procedures`
+
+---
+
+### Module 04 – Test Driven Development and Logging Framework
+
+---
+
+### 3. Exercise 01 – Setting Up JUnit
+
+**Highlights**:
+- Basic JUnit environment setup using Maven.
+- Simple test case to validate structure and execution.
+- Demonstrates use of `@Test` annotation and assertions.
+
+**Folder**: `Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/src/test/java/com/example/JUnit/Exercise_01_Setting_Up_JUnit`
+
+---
+
+### 4. Exercise 03 – Assertions in JUnit
+
+**Highlights**:
+- Demonstrates usage of JUnit assertions:
+  - `assertEquals`, `assertTrue`, `assertFalse`, `assertNull`, `assertNotNull`.
+- Validates various logical conditions in test cases.
+
+**Folder**: `Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/src/test/java/com/example/JUnit/Exercise_03_Assertions_in_JUnit`
+
+---
+
+### 5. Exercise 04 – AAA Pattern & Fixtures
+
+**Highlights**:
+- Applies the Arrange-Act-Assert (AAA) testing pattern.
+- Uses `@Before` for setup and `@After` for teardown.
+- Ensures clean state between tests.
+
+**Folder**: `Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/src/test/java/com/example/JUnit/Exercise_04_AAA_and_Fixtures`
+
+---
+
+### 6. Exercise 01 – Mocking and Stubbing (Mockito)
+
+**Highlights**:
+- Mocks external dependencies using Mockito.
+- Stubs method return values with `when().thenReturn()`.
+- Tests service behavior without relying on real implementations.
+
+**Folder**: `Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/src/test/java/com/example/Mockito/Exercise_01_Mocking_and_Stubbing`
+
+---
+
+### 7. Exercise 02 – Verifying Interactions
+
+**Highlights**:
+- Ensures specific method calls were made with expected arguments.
+- Uses `Mockito.verify()` to validate interaction between classes.
+
+**Folder**: `Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/src/test/java/com/example/Mockito/Exercise_02_Verifying_Interactions`
+
+---
+
+### 8. Exercise 01 – SLF4J Logging (Error & Warning Levels)
+
+**Highlights**:
+- Uses SLF4J with Logback for structured logging.
+- Demonstrates logging of `ERROR` and `WARN` levels.
+- Configured via Maven dependencies and simple Java class.
+
+**Folder**: `Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/src/test/java/com/example/SLF4J_Logging/Exercise_01_Logging_Error_Warning`
+
+---
+
 ## Notes:
-- All exercises follow **OOP principles**, and the code is written using clean, modular Java.
-- Discussions and complexity analyses are documented in `.docx` files inside respective folders.
-- Git commits are maintained weekly with clear structure (`Week1/`, `Week2/`, ...).
+
+* All exercises follow **OOP principles**, and the code is written using clean, modular Java.
+* Discussions and complexity analyses are documented in `.docx` files inside respective folders.
+* Git commits are maintained weekly with clear structure (`Week1/`, `Week2/`, ...).
 
 ---
 
