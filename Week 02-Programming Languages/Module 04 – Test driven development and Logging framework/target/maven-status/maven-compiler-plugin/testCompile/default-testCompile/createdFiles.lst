@@ -1,5 +1,8 @@
+com/example/Mockito/Exercise_02_Verifying_Interactions/MyServiceTest.class
 com/example/JUnit/Exercise_01_Setting_Up_JUnit/TestClass.class
 com/example/AppTest.class
+com/example/Mockito/MyService.class
+com/example/Mockito/ExternalApi.class
 com/example/JUnit/Exercise_03_Assertions_in_JUnit/AssertionsTest.class
 com/example/JUnit/Exercise_04_AAA_and_Fixtures/CalculatorTest.class
 com/example/Mockito/Exercise_01_Mocking_and_Stubbing/MyServiceTest.class

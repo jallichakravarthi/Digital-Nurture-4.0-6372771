@@ -189,7 +189,7 @@ Discussion: `Exercise 07-discussion.docx`
 - Demonstrates logging of `ERROR` and `WARN` levels.
 - Configured via Maven dependencies and simple Java class.
 
-**Folder**: `Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/src/test/java/com/example/SLF4J_Logging/Exercise_01_Logging_Error_Warning`
+**Folder**: `Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/src/main/java/com/example/SLF4J_Logging/Exercise_01_Logging_Error_Warning`
 
 ---
 
