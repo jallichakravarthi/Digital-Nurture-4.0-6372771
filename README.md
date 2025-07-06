@@ -151,7 +151,52 @@ This repository contains all the mandatory hands-on exercises completed as part 
 
 ## Week 3 – Products and Frameworks
 
+### Module 05 – Spring Core and Maven
+
+---
+
+#### LibraryManagement Maven Project
+
+This single Maven project consolidates multiple Spring Core exercises under one structured application.
+
+---
+
+### 🔹 Exercise 01 – Configuring a Basic Spring Application
+
+* **Highlights**:
+  - Spring configuration using annotations and/or XML.
+  - Demonstrates bean creation and basic setup using `ApplicationContext`.
+  - Includes `App.java` to bootstrap the application.
+
+---
+
+### 🔹 Exercise 02 – Implementing Dependency Injection
+
+* **Highlights**:
+  - Uses both constructor-based and setter-based Dependency Injection (DI).
+  - Clear separation of business logic and service layer (`repository`, `service` packages).
+  - Demonstrates how Spring handles dependencies with minimal boilerplate.
+
+---
+
+### 🔹 Exercise 04 – Creating and Configuring a Maven Project
+
+* **Highlights**:
+  - Complete Maven project setup with valid `pom.xml`.
+  - Organized structure: `src/main/java`, `src/test/java`, `resources`.
+  - Dependencies added for Spring Core and related modules.
+
+**Folder**: `Week 03-Products and Frameworks/Module 05-Spring Core and Maven/LibraryManagement`  
+**Key Files**:  
+- `App.java` (Main application)  
+- `repository/`, `service/` packages (Logic layers)  
+- `Exercise_01`, `Exercise_02`, `Exercise_04` (Modular structure per task)  
+- `pom.xml`
+
+
 ### Module 06 – Spring Data JPA with Spring Boot, Hibernate
+
+---
 
 #### 1. Exercise 01 – Country Repository with Spring Data JPA
 * **Highlights**:
@@ -161,6 +206,8 @@ This repository contains all the mandatory hands-on exercises completed as part 
   * Output verified using application runner and LiveReload console.
 
 **Folder**: `Week 03-Products and Frameworks/Module 06-Spring Data JPA with Spring Boot, Hibernate/Exercise 01/orm-learn`
+
+---
 
 #### 2. Exercise 04 – JPA vs Hibernate vs Spring Data JPA (Comparison)
 * **Highlights**:
