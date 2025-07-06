@@ -51,7 +51,6 @@ mvnw.cmd
 *.orig
 
 # === Output images or screenshots ===
-*.png
 *.jpg
 *.jpeg
 *.gif
