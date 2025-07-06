@@ -161,7 +161,7 @@ This single Maven project consolidates multiple Spring Core exercises under one 
 
 ---
 
-### 🔹 Exercise 01 – Configuring a Basic Spring Application
+### 1. Exercise 01 – Configuring a Basic Spring Application
 
 * **Highlights**:
   - Spring configuration using annotations and/or XML.
@@ -170,7 +170,7 @@ This single Maven project consolidates multiple Spring Core exercises under one 
 
 ---
 
-### 🔹 Exercise 02 – Implementing Dependency Injection
+### 2. Exercise 02 – Implementing Dependency Injection
 
 * **Highlights**:
   - Uses both constructor-based and setter-based Dependency Injection (DI).
@@ -179,7 +179,7 @@ This single Maven project consolidates multiple Spring Core exercises under one 
 
 ---
 
-### 🔹 Exercise 04 – Creating and Configuring a Maven Project
+### 3. Exercise 04 – Creating and Configuring a Maven Project
 
 * **Highlights**:
   - Complete Maven project setup with valid `pom.xml`.
@@ -198,7 +198,7 @@ This single Maven project consolidates multiple Spring Core exercises under one 
 
 ---
 
-#### 1. Exercise 01 – Country Repository with Spring Data JPA
+#### 4. Exercise 01 – Country Repository with Spring Data JPA
 * **Highlights**:
   * Used Spring Boot, JPA annotations, and Hibernate integration.
   * Defined a `Country` entity and repository interface.
@@ -209,7 +209,7 @@ This single Maven project consolidates multiple Spring Core exercises under one 
 
 ---
 
-#### 2. Exercise 04 – JPA vs Hibernate vs Spring Data JPA (Comparison)
+#### 5. Exercise 04 – JPA vs Hibernate vs Spring Data JPA (Comparison)
 * **Highlights**:
   * Discusses the differences between:
     * Java Persistence API (JPA)
