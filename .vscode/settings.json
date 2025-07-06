@@ -1,3 +1,13 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.project.sourcePaths": [
+        "Week 03-Products and Frameworks/Module 05-Spring Core and Maven/LibraryManagement/src/main/java/com/library/Exercise_01_Configuring_a_Basic_Spring_Application",
+        "Week 01-Engineering concepts/Module 02-Algorithms_Data Structures/Exercise 07-Financial Forecasting",
+        "Week 01-Engineering concepts/Module 02-Algorithms_Data Structures/Exercise 03 - Sorting Customer Orders",
+        "Week 01-Engineering concepts/Module 02-Algorithms_Data Structures/Exercise 02 - E-commerce Platform Search Function",
+        "Week 01-Engineering concepts/Module 01-Design Patterns and Principles/Exercise 02-Factory Method Pattern",
+        "Week 01-Engineering concepts/Module 01-Design Patterns and Principles/Exercise 01-Singleton Pattern",
+        "Week 03-Products and Frameworks/Module 05-Spring Core and Maven/LibraryManagement/src/main/java/com/library/Exercise_01"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }
