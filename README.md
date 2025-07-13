@@ -214,34 +214,56 @@ This single Maven project consolidates multiple Spring Core exercises under one 
 
 ## Week 4 – Spring REST using Spring Boot
 
-### Module 07 – REST API and Security
+This week includes 6 mandatory hands-on exercises focusing on building RESTful web services with Spring Boot and implementing JWT-based authentication.
 
-This module contains a complete Spring Boot application called `spring-learn`, with all 6 mandatory hands-on tasks implemented.
+###  Module 7 - Spring REST using Spring Boot 3
 
-#### 1. Spring Boot Setup and XML Bean Configuration
-* Loads country data from `country.xml` using `ApplicationContext`.
-* Demonstrates basic Spring XML configuration.
+#### 1. Exercise – Create a Spring Web Project using Maven
+* **Objective**: Initialize a Spring Boot project using Maven.
+* **Highlights**:
+  * Basic Spring Boot project structure created using Maven.
+  * Directory structure includes `src/main/java`, `resources`, and `test` folders.
+  * Spring Boot starter dependencies configured in `pom.xml`.
 
-#### 2. Hello World REST Endpoint
-* Endpoint: `GET /hello`
-* Returns: `"Hello World!!"`
+#### 2. Exercise – Spring Core: Load Country from Spring Configuration XML
+* **Objective**: Load a country bean defined in `country.xml` using Spring XML configuration.
+* **Highlights**:
+  * Demonstrates use of `ApplicationContext` to load Spring beans.
+  * Reads multiple country beans (`IN`, `US`, `DE`, `JP`) from `country.xml`.
+  * Uses SLF4J logging for output.
 
-#### 3. Get Country (India) Endpoint
-* Endpoint: `GET /country`
-* Returns country object loaded from `country.xml`.
+#### 3. Exercise – Hello World RESTful Web Service
+* **Endpoint**: `GET /hello`
+* **Objective**: Implement a simple REST controller that returns "Hello World!!".
+* **Highlights**:
+  * Controller: `HelloController`
+  * Uses `@GetMapping` and returns plain text.
+  * Includes `START` and `END` debug logs.
 
-#### 4. Get Country by Code
-* Endpoint: `GET /countries/{code}`
-* Returns specific country details by case-insensitive code match.
+#### 4. Exercise – REST: Country Web Service
+* **Endpoint**: `GET /country`
+* **Objective**: Return India (`IN`) country details as JSON.
+* **Highlights**:
+  * Controller: `CountryController`
+  * Loads country bean from XML config.
+  * Uses Jackson for automatic JSON conversion.
 
-#### 5. JWT Authentication Service
-* Endpoint: `GET /authenticate`
-* Accepts basic auth credentials (`-u user:pwd`)
-* Returns JWT token as JSON response.
+#### 5. Exercise – REST: Get Country Based on Country Code
+* **Endpoint**: `GET /countries/{code}`
+* **Objective**: Return country by code in a case-insensitive manner.
+* **Highlights**:
+  * Retrieves country list from `country.xml`.
+  * Filters using a case-insensitive match.
+  * Returns matching `Country` object or `null`.
 
-#### 6. Spring Security Configuration
-* Includes `SecurityConfig.java` to secure endpoints.
-* Uses in-memory authentication and JWT for stateless authentication.
+#### 6. Exercise – Create Authentication Service that Returns JWT
+* **Endpoint**: `GET /authenticate`
+* **Objective**: Generate and return a JWT token upon successful basic authentication.
+* **Highlights**:
+  * Controller: `AuthenticationController`
+  * Uses Spring Security and JWT libraries.
+  * Credentials passed via `curl -u username:password`.
+  * Returns a valid JWT token in JSON format.
 
 **Folder**: `Week 04-Spring REST using Spring Boot/spring-learn`  
 **Key Files**:
@@ -250,6 +272,7 @@ This module contains a complete Spring Boot application called `spring-learn`, w
 - `controller/HelloController.java`, `CountryController.java`, `AuthenticationController.java`
 - `service/CountryService.java`
 - `config/SecurityConfig.java`
+- `application.properties`
 
 ---
 
