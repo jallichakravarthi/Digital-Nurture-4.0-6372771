@@ -55,7 +55,7 @@ This repository contains all the mandatory hands-on exercises completed as part 
 * **Highlights**:
   * `Order` class holds customer details and product list.
   * `OrderProduct` class encapsulates product details.
-  * Implemented both **Bubble Sort** and **Quick Sort** based on `totalPrice`.
+  * Implemented both Bubble Sort and Quick Sort based on `totalPrice`.
   * Demonstrates efficiency and time complexity difference between the two algorithms.
 
 **Folder**: `Week1/Module2/Exercise3-SortingCustomerOrders`  
@@ -153,38 +153,30 @@ This repository contains all the mandatory hands-on exercises completed as part 
 
 ### Module 05 – Spring Core and Maven
 
----
-
 #### LibraryManagement Maven Project
 
 This single Maven project consolidates multiple Spring Core exercises under one structured application.
 
----
-
 #### 1. Exercise 01 – Configuring a Basic Spring Application
 
 * **Highlights**:
-  - Spring configuration using annotations and/or XML.
-  - Demonstrates bean creation and basic setup using `ApplicationContext`.
-  - Includes `App.java` to bootstrap the application.
-
----
+  * Spring configuration using annotations and/or XML.
+  * Demonstrates bean creation and basic setup using `ApplicationContext`.
+  * Includes `App.java` to bootstrap the application.
 
 #### 2. Exercise 02 – Implementing Dependency Injection
 
 * **Highlights**:
-  - Uses both constructor-based and setter-based Dependency Injection (DI).
-  - Clear separation of business logic and service layer (`repository`, `service` packages).
-  - Demonstrates how Spring handles dependencies with minimal boilerplate.
-
----
+  * Uses both constructor-based and setter-based Dependency Injection (DI).
+  * Clear separation of business logic and service layer (`repository`, `service` packages).
+  * Demonstrates how Spring handles dependencies with minimal boilerplate.
 
 #### 3. Exercise 04 – Creating and Configuring a Maven Project
 
 * **Highlights**:
-  - Complete Maven project setup with valid `pom.xml`.
-  - Organized structure: `src/main/java`, `src/test/java`, `resources`.
-  - Dependencies added for Spring Core and related modules.
+  * Complete Maven project setup with valid `pom.xml`.
+  * Organized structure: `src/main/java`, `src/test/java`, `resources`.
+  * Dependencies added for Spring Core and related modules.
 
 **Folder**: `Week 03-Products and Frameworks/Module 05-Spring Core and Maven/LibraryManagement`  
 **Key Files**:  
@@ -193,10 +185,9 @@ This single Maven project consolidates multiple Spring Core exercises under one 
 - `Exercise_01`, `Exercise_02`, `Exercise_04` (Modular structure per task)  
 - `pom.xml`
 
+---
 
 ### Module 06 – Spring Data JPA with Spring Boot, Hibernate
-
----
 
 #### 4. Exercise 01 – Country Repository with Spring Data JPA
 * **Highlights**:
@@ -206,8 +197,6 @@ This single Maven project consolidates multiple Spring Core exercises under one 
   * Output verified using application runner and LiveReload console.
 
 **Folder**: `Week 03-Products and Frameworks/Module 06-Spring Data JPA with Spring Boot, Hibernate/Exercise 01/orm-learn`
-
----
 
 #### 5. Exercise 04 – JPA vs Hibernate vs Spring Data JPA (Comparison)
 * **Highlights**:
@@ -223,11 +212,53 @@ This single Maven project consolidates multiple Spring Core exercises under one 
 
 ---
 
+## Week 4 – Spring REST using Spring Boot
+
+### Module 07 – REST API and Security
+
+This module contains a complete Spring Boot application called `spring-learn`, with all 6 mandatory hands-on tasks implemented.
+
+#### 1. Spring Boot Setup and XML Bean Configuration
+* Loads country data from `country.xml` using `ApplicationContext`.
+* Demonstrates basic Spring XML configuration.
+
+#### 2. Hello World REST Endpoint
+* Endpoint: `GET /hello`
+* Returns: `"Hello World!!"`
+
+#### 3. Get Country (India) Endpoint
+* Endpoint: `GET /country`
+* Returns country object loaded from `country.xml`.
+
+#### 4. Get Country by Code
+* Endpoint: `GET /countries/{code}`
+* Returns specific country details by case-insensitive code match.
+
+#### 5. JWT Authentication Service
+* Endpoint: `GET /authenticate`
+* Accepts basic auth credentials (`-u user:pwd`)
+* Returns JWT token as JSON response.
+
+#### 6. Spring Security Configuration
+* Includes `SecurityConfig.java` to secure endpoints.
+* Uses in-memory authentication and JWT for stateless authentication.
+
+**Folder**: `Week 04-Spring REST using Spring Boot/spring-learn`  
+**Key Files**:
+- `SpringLearnApplication.java`
+- `Country.java`, `country.xml`
+- `controller/HelloController.java`, `CountryController.java`, `AuthenticationController.java`
+- `service/CountryService.java`
+- `config/SecurityConfig.java`
+
+---
+
 ## Notes
 
-* All exercises follow **OOP principles**, and the code is written using clean, modular Java.
-* Discussions and complexity analyses are documented in `.docx` files inside respective folders.
-* Git commits are maintained weekly with clear structure (`Week1/`, `Week2/`, `Week3/`, ...).
+* All exercises follow object-oriented principles and modular Java practices.
+* Maven is used for dependency and project management.
+* Documentation and discussions are available as `.docx` files inside each module/folder.
+* Git history is maintained with weekly and modular segregation (`Week1/`, `Week2/`, `Week3/`, `Week4/`, etc.).
 
 ---
 
