@@ -39,7 +39,7 @@ public class AuthenticationController {
         String jwt = Jwts.builder()
                 .setSubject(userDetails[0])
                 .setIssuedAt(new Date())
-                .setExpiration(new Date(System.currentTimeMillis() + 60 * 60 * 1000)) // 1 hour
+                .setExpiration(new Date(System.currentTimeMillis() + 60 * 60 * 1000)) // expires in 1 hour
                 .signWith(key)
                 .compact();
 
@@ -47,6 +47,6 @@ public class AuthenticationController {
     }
 
     private boolean isValidUser(String username, String password) {
-        return "user".equals(username) && "pwd".equals(password); // Hardcoded for now
+        return "user".equals(username) && "pwd".equals(password); // Hardcoded for practice
     }
 }

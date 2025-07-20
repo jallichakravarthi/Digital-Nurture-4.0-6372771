@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.Mockito.Exercise_01_Mocking_and_Stubbing.MyServiceTest" time="0.518" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.Mockito.Exercise_01_Mocking_and_Stubbing.MyServiceTest" time="0.493" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -9,12 +9,13 @@
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="java.vm.specification.version" value="21"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Users/jallichakravarthi/Desktop/OpenJDK-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/jallichakravarthi/Desktop/Cognizant-DeepSkilling/Digital-Nurture-4.0-6372771/Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/target/surefire/surefirebooter2659165139202717817.jar /Users/jallichakravarthi/Desktop/Cognizant-DeepSkilling/Digital-Nurture-4.0-6372771/Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/target/surefire 2025-06-29T20-49-25_601-jvmRun1 surefire11967059702268156312tmp surefire_014098085517310368561tmp"/>
+    <property name="sun.java.command" value="/Users/jallichakravarthi/Desktop/Cognizant-DeepSkilling/Digital-Nurture-4.0-6372771/Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/target/surefire/surefirebooter14647341140194886785.jar /Users/jallichakravarthi/Desktop/Cognizant-DeepSkilling/Digital-Nurture-4.0-6372771/Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/target/surefire 2025-07-17T00-54-32_101-jvmRun1 surefire9514158533764203193tmp surefire_013116233631219131113tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.example.Mockito.Exercise_01_Mocking_and_Stubbing.MyServiceTest#testExternalApi"/>
     <property name="surefire.test.class.path" value="/Users/jallichakravarthi/Desktop/Cognizant-DeepSkilling/Digital-Nurture-4.0-6372771/Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/target/test-classes:/Users/jallichakravarthi/Desktop/Cognizant-DeepSkilling/Digital-Nurture-4.0-6372771/Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/target/classes:/Users/jallichakravarthi/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/jallichakravarthi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jallichakravarthi/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/jallichakravarthi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/jallichakravarthi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jallichakravarthi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/jallichakravarthi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jallichakravarthi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/jallichakravarthi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/jallichakravarthi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/jallichakravarthi/.m2/repository/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar:/Users/jallichakravarthi/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/jallichakravarthi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.12/byte-buddy-agent-1.14.12.jar:/Users/jallichakravarthi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/jallichakravarthi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/jallichakravarthi/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/jallichakravarthi/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/jallichakravarthi"/>
@@ -29,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/jallichakravarthi/Desktop/Cognizant-DeepSkilling/Digital-Nurture-4.0-6372771/Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/target/surefire/surefirebooter2659165139202717817.jar"/>
+    <property name="surefire.real.class.path" value="/Users/jallichakravarthi/Desktop/Cognizant-DeepSkilling/Digital-Nurture-4.0-6372771/Week 02-Programming Languages/Module 04 – Test driven development and Logging framework/target/surefire/surefirebooter14647341140194886785.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.2+13-58"/>
@@ -40,6 +41,7 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/Users/jallichakravarthi/.vscode/extensions/oracle.oracle-java-24.0.0/nbcode/java/maven-nblib/netbeans-eventspy.jar"/>
     <property name="localRepository" value="/Users/jallichakravarthi/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/3z/39_mmm113lj5svm02m_f6phw0000gn/T/"/>
@@ -57,5 +59,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testExternalApi" classname="com.example.Mockito.Exercise_01_Mocking_and_Stubbing.MyServiceTest" time="0.513"/>
+  <testcase name="testExternalApi" classname="com.example.Mockito.Exercise_01_Mocking_and_Stubbing.MyServiceTest" time="0.488"/>
 </testsuite>

@@ -276,6 +276,55 @@ This week includes 6 mandatory hands-on exercises focusing on building RESTful w
 
 ---
 
+## Week 5 – Microservices Architecture
+
+This week focuses on designing and implementing **independent microservices** using **Spring Boot** and RESTful principles.
+
+### Module 08 – Microservices with Spring Boot
+
+#### 1. Exercise – Create `account` and `loan` microservices
+
+* **Objective**: Build two independent Spring Boot microservices to demonstrate microservice architecture.
+
+* **Microservices**:
+  - `account` service (port: 8080)
+    - Endpoint: `GET /accounts/{accountNumber}`
+    - Returns account details in JSON.
+  - `loan` service (port: 8081)
+    - Endpoint: `GET /loans/{loanNumber}`
+    - Returns loan details in JSON.
+
+* **Highlights**:
+  - Each service has its own Spring Boot project, `pom.xml`, and `application.properties`.
+  - Follows RESTful design:
+    - Stateless interactions
+    - Resource-oriented URLs
+    - JSON-based responses
+  - Demonstrates basic microservice principles:
+    - Independent deployability
+    - Separation of concerns
+    - Lightweight HTTP communication
+
+* **Folder Structure**:
+```
+Week 05-Microservices/  
+├── account/  
+│ ├── src/  
+│ ├── pom.xml  
+│ └── application.properties (port: 8080)  
+├── loan/  
+│ ├── src/  
+│ ├── pom.xml  
+│ └── application.properties (port: 8081)  
+```
+* **Discussion**:
+  - Even though each service has only one or two endpoints, they are still **valid microservices** because they are independently deployable and focused on distinct business functions.
+  - They qualify as **REST APIs** because they follow REST conventions: use of HTTP verbs, statelessness, and structured responses using JSON.
+
+**Folder**: `Week 05-Microservices/`  
+
+---
+
 ## Notes
 
 * All exercises follow object-oriented principles and modular Java practices.
