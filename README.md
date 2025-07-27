@@ -324,6 +324,87 @@ Week 05-Microservices/
 **Folder**: `Week 05-Microservices/`  
 
 ---
+## Week 6 – Single Page Application Framework - React
+
+This week focuses on building modern front-end applications using **ReactJS**. Exercises include basic rendering, routing, props, styling, lifecycle methods, and data fetching.
+
+---
+
+### Module 10 – Single Page Application Framework - React
+
+#### 1. Exercise – My First React App
+
+* **App Name**: `myfirstreact`
+* **Objective**: Create a basic React app to render a welcome message.
+* **Highlights**:
+  * Create the app using `create-react-app`.
+  * Modify `App.js` to display:
+    ```jsx
+    <h1>Welcome the first session of react</h1>
+    ```
+
+**Folder**: `Week 06-ReactJS/Module 10-SPA Framework - React/myfirstreact`
+
+---
+
+#### 2. Exercise – Student Management Pages
+
+* **App Name**: `studentapp`
+* **Objective**: Create and render multiple components (`Home`, `About`, `Contact`) with appropriate content.
+* **Highlights**:
+  * Each component displays:
+    ```jsx
+    <h3>Welcome to [page name] page of student management portal</h3>
+    ```
+  * Components imported and rendered in `App.js`.
+
+**Folder**: `Week 06-ReactJS/Module 10-SPA Framework - React/studentapp`
+
+---
+
+#### 3. Exercise – Score Calculator with Styling
+
+* **App Name**: `scorecalculatorapp`
+* **Objective**: Create a styled component that calculates and displays a student's score.
+* **Highlights**:
+  * `CalculateScore.js` component in `components/`
+  * Styling handled in `Stylesheets/CalculateScore.css`
+  * Uses props: `name`, `school`, `total`, and `goal`
+  * Calculates percentage dynamically and styles each section differently.
+
+**Folder**: `Week 06-ReactJS/Module 10-SPA Framework - React/scorecalculatorapp`
+
+---
+
+#### 4. Exercise – Display Blog Posts with Lifecycle Hooks
+
+* **App Name**: `blogapp`
+* **Objective**: Fetch and display blog posts from an API using lifecycle methods.
+* **Highlights**:
+  * `Post.js` – Class definition for post data.
+  * `Posts.js` – Class-based component.
+    * Uses `componentDidMount()` to fetch from `https://jsonplaceholder.typicode.com/posts`
+    * Displays title and body of each post.
+    * Handles errors using `componentDidCatch()`.
+
+**Folder**: `Week 06-ReactJS/Module 10-SPA Framework - React/blogapp`
+
+---
+
+#### 5. Exercise – Styling Cohort Dashboard with CSS Modules
+
+* **App Name**: `cohorttracker`
+* **Objective**: Style a React component using both CSS modules and inline styles.
+* **Highlights**:
+  * `CohortDetails.js` displays cohort info.
+  * Uses `CohortDetails.module.css` for styling `.box` container and `<dt>` tags.
+  * Inline styling applied to `<h3>`:
+    - Green text for `status === "ongoing"`
+    - Blue text otherwise
+
+**Folder**: `Week 06-ReactJS/Module 10-SPA Framework - React/cohorttracker`
+
+---
 
 ## Notes
 
