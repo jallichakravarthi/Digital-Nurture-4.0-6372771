@@ -1,5 +1,6 @@
 # Digital-Nurture-4.0-6372771
 
+
 ## Cognizant DN 4.0 - Java FSE Deepskilling Hands-On
 
 This repository contains all the mandatory hands-on exercises completed as part of the **Cognizant Digital Nurture 4.0 (Java Full Stack Engineer)** Deepskilling program.
@@ -403,6 +404,47 @@ This week focuses on building modern front-end applications using **ReactJS**. E
     - Blue text otherwise
 
 **Folder**: `Week 06-ReactJS/Module 10-SPA Framework - React/cohorttracker`
+
+---
+
+## Week 07 – React Projects
+
+This week focuses on hands-on React.js development, covering component design, conditional rendering, event handling, UI styling, and modern dashboard layouts. Each exercise demonstrates a different aspect of React best practices.
+
+### Exercise 1: CricketApp (`cricketapp`)
+- **Features:**
+  - Lists cricket players with scores and teams.
+  - Demonstrates conditional rendering between components (List of Players, Indian Players).
+  - Uses ES6 features: array map/filter, destructuring, and spread operator.
+  - Includes left-aligned, clean UI with toggle functionality.
+
+### Exercise 2: OfficeSpaceRentalApp (`officespacerentalapp`)
+- **Features:**
+  - Displays a list of office spaces with images, rent, and addresses.
+  - Conditional CSS styling for rent values (red/green based on threshold).
+  - Card-based layout using flexbox for modern appearance.
+
+### Exercise 3: EventExamplesApp (`eventexamplesapp`)
+- **Features:**
+  - Interactive Counter component demonstrating state and event handling.
+  - Currency Converter with input/select and conversion logic.
+  - Demonstrates use of inline styles and controlled components.
+
+### Exercise 4: TicketBookingApp (`ticketbookingapp`)
+- **Features:**
+  - Login/logout flow with User and Guest views.
+  - Conditional rendering using multiple techniques.
+  - Modern, centered UI with color themes and styled buttons.
+
+### Exercise 5: BloggerApp (`bloggerapp`)
+- **Features:**
+  - Three-column dashboard layout for Course, Book, and Blog details.
+  - Modern, responsive styling with CSS and flexbox.
+  - Demonstrates component composition and UI structuring for dashboards.
+
+----
+
+Each project is self-contained in its respective folder under `Week 07-React/Exercise N/`, and can be run independently using `npm start` in the appropriate app directory. These exercises provide a comprehensive introduction to real-world React development and UI techniques.
 
 ---
 

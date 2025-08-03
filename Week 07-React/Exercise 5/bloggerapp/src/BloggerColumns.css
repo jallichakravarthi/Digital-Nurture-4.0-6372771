@@ -1,0 +1,47 @@
+.blogger-columns {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.blogger-col {
+  flex: 1 1 0;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 32px 24px;
+  min-width: 280px;
+  border-left: 4px solid #1abc9c;
+  border-right: 4px solid #1abc9c;
+}
+
+.blogger-col:first-child {
+  border-left: none;
+}
+.blogger-col:last-child {
+  border-right: none;
+}
+
+.blogger-col h2 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+  color: #222;
+  font-weight: 700;
+}
+
+.blogger-col p, .blogger-col li {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 8px 0;
+}
+
+.blogger-col strong {
+  color: #1abc9c;
+}
+
+body {
+  background: #f7f9fa;
+}
