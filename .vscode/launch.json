@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SpringLearnApplication",
+            "request": "launch",
+            "mainClass": "com.cognizant.spring_learn.SpringLearnApplication",
+            "projectName": "spring-learn"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-OrmLearnApplication<orm-learn>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.cognizant.orm_learn.OrmLearnApplication",
+            "projectName": "orm-learn",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
