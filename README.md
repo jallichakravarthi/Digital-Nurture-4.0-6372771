@@ -448,6 +448,59 @@ Each project is self-contained in its respective folder under `Week 07-React/Exe
 
 ---
 
+# Week 08 – GIT
+
+This week focuses on mastering Git commands and workflows through practical hands-on exercises. You will work with repositories, branches, merges, conflict resolution, `.gitignore`, and remote interactions, ensuring you understand both local and remote Git operations.
+
+---
+
+## Exercise 1: Git Basics and Configuration
+**Features:**
+- Configure Git user name and email.
+- Set up a default text editor for Git.
+- Initialize a local repository and add files.
+- Commit changes and push to a remote repository.
+- Pull updates from the remote.
+
+---
+
+## Exercise 2: Ignoring Files
+**Features:**
+- Create `.log` files and a `log` folder in the working directory.
+- Configure `.gitignore` to exclude these files/folders from tracking.
+- Commit `.gitignore` changes.
+- Verify ignored files do not appear in `git status`.
+
+---
+
+## Exercise 3: Branching and Merging
+**Features:**
+- Create and switch between branches.
+- Add files and commit changes to a branch.
+- Merge branches into the main branch.
+- View commit history with `git log --oneline --graph --decorate`.
+- Delete merged branches.
+
+---
+
+## Exercise 4: Conflict Resolution
+**Features:**
+- Create conflicting changes in two branches.
+- Merge branches and resolve conflicts using a 3-way merge tool.
+- Commit resolved changes.
+- Update `.gitignore` to exclude backup files from merge tools.
+
+---
+
+## Exercise 5: Remote Repository Interaction
+**Features:**
+- Verify main branch is in a clean state.
+- List local and remote branches.
+- Pull updates from the remote repository.
+- Push pending changes from a specific branch to remote.
+- Verify changes on the remote platform (e.g., GitHub/GitLab).
+
+
 ## Notes
 
 * All exercises follow object-oriented principles and modular Java practices.
@@ -456,5 +509,3 @@ Each project is self-contained in its respective folder under `Week 07-React/Exe
 * Git history is maintained with weekly and modular segregation (`Week1/`, `Week2/`, `Week3/`, `Week4/`, etc.).
 
 ---
-
-*More modules and hands-on exercises will be added as the program progresses.*
