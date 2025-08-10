@@ -26,7 +26,6 @@ Thumbs.db
 # === Output or test files ===
 *.lst
 *.out
-*.txt
 *.properties
 *.csv
 *.dat
